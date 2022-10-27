@@ -1,0 +1,3 @@
+Clean up and get established.
+
+Do every file in the Python Bootcamp Master up to date.
