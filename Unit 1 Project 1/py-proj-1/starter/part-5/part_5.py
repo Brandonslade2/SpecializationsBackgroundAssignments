@@ -21,7 +21,7 @@ def create_new_book(library):
     print('New Book added to the favorites list!')
 
     with open(library, 'a') as f: #What is a again?
-        f.write(f"{title}, {author}, {year}, {rating}, {pages}\n")
+        f.write(f'{title}, {author}, {year}, {rating}, {pages}\n')
 
 
 ### Step 2 - Read data from a .txt
@@ -94,7 +94,10 @@ def main_menu(library):
         choice = input('Choose an option:')
 
         if choice == "1":
-            view_favorite_books(library)
+            if view_favorite_books(library) == False:
+                print('You need to add a book first!')
+            else:
+                view_favorite_books(library)
         elif choice == "2":
             create_new_book(library)
         elif choice == "5":
