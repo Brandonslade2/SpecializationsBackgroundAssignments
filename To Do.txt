@@ -1,9 +1,0 @@
-TO DO:
-Clean up everything and get established.
-Do every file in the Python Bootcamp Master up to date.
-
-__________________
-
-Starter Code are files directly from DevMountain. Along with Starter Code files, follow along the steps in Frodo, not just the code.
-When DevMountain takes you to Udemy Links, completely finish that sections lectures along with the corresponding Master files.
-Git commit from this USB.
